@@ -1,0 +1,231 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body{
+  background-color: rgb(243, 243, 243);
+  max-height:100vh;
+}
+
+main{
+  width:100%;
+  /* min-height: 100vh; */
+  margin:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-wrapper{
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  width: 58.4rem;
+  max-width: 58.4rem;
+  /* height:100vh; */
+  margin: 6rem auto 4rem;
+
+}
+
+.instagram-left{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 50%;
+
+}
+
+.instagram-left img{
+  height: 46rem;
+}
+
+.instagram-right{
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: initial;
+  width: 45%;
+  min-height: 34rem;
+  margin-top: 12px;
+}
+
+.login-group,
+.create-account{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  padding: 1.3rem 0 0 0;
+  border: 1px solid lightgray;
+  margin-bottom:1rem;
+}
+
+#instagram-logo{
+  margin:22px auto 12px;
+}
+
+
+#login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  max-width: 21.875rem;
+  width: 100%;
+}
+
+#login-form input{
+  width:100%;
+  background: rgba(var(--b3f,250,250,250),1);
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  outline: 0;
+  padding: 1rem;
+  color: rgba(var(--f52,142,142,142),1);
+  font-size: 12px;
+  overflow: hidden;
+  margin-top:0.5rem;
+}
+
+#login-form button{
+  width:100%;
+  margin-top: 1rem;
+  background-color: rgba(var(--d69,0,149,246),.3);
+  opacity: 1;
+  border: 1px solid transparent;
+  color:#fff;
+  border-radius: 4px;
+  appearance: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.line-break{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin:2rem 0 0 0;
+  color: rgb(142, 142, 142);
+}
+
+.line-break p{
+  margin: 0 1.2rem;
+}
+
+.line{
+  height:1px;
+  border-bottom:1px solid rgb(142, 142, 142);
+  width:100%;
+}
+
+.facebook{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(56, 81, 133);
+  margin-top:1rem;
+  font-weight:600;
+}
+
+.facebook img{
+  height:1rem;
+  width: 1rem;
+  margin-right:.5rem;
+}
+
+.password-recover{
+  margin: 1rem 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.password-recover a{
+  font-size:12px;
+}
+
+.create-account{
+  padding: 0.625rem 0;
+  color: rgb(142, 142, 142,);
+}
+
+.create-account p{
+  margin:1rem;
+}
+
+.create-account a{
+  font-weight: 600;
+}
+
+.apps{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apps p{
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0.625rem 1.25rem;
+  text-align: center;
+}
+
+.download-links{
+  display: flex;
+  flex-direction: row;
+  margin:0.625rem;
+  width:80%;
+  justify-content: space-evenly;
+}
+
+
+
+.download-links img{
+  width:8.5rem;
+  height:2.5rem;
+}
+
+footer{
+  width: 55.4rem;
+  max-width: 58.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 58.4rem;
+  margin: 0 auto;
+  color:rgb(142, 142, 142);
+}
+
+footer div{
+  margin: 0 8px 12px;
+  font-size:12px;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  margin:2rem auto;
+  max-width: 58.4rem;
+  color:rgb(142, 142, 142);
+}
+
+.copyright a{
+  margin-right:1rem;
+  color:rgb(142, 142, 142);
+}
