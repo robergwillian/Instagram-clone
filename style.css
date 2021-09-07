@@ -9,7 +9,6 @@
 
 body{
   background-color: rgb(243, 243, 243);
-  max-height:100vh;
 }
 
 main{
@@ -228,4 +227,40 @@ footer div{
 .copyright a{
   margin-right:1rem;
   color:rgb(142, 142, 142);
+}
+
+@media (max-width: 1024px){
+  .instagram-wrapper{
+    width:100%;
+  }
+}
+
+@media (max-width: 700px){
+  .instagram-wrapper{
+    width:90%;
+    margin:0;
+  }
+
+  .instagram-left{
+    display: none;
+  }
+
+  .instagram-right{
+    width:100%;
+  }
+
+  footer{
+    width:100%;
+  }
+}
+
+@media (max-width: 400px){
+  #login-form{
+    width:90%;
+  }
+
+  .copyright{
+    flex-direction: column;
+    align-items: center;
+  }
 }
